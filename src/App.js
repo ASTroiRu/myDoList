@@ -1,6 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
+
 import './App.css';
+import Content from './components/content/content';
+import Header from './components/header/header';
+import Nav from './components/nav/nav';
+import Footer from './components/footer/footer';
 
 const App = () => {
   return (
@@ -12,39 +17,6 @@ const App = () => {
     </div>
   );
 };
-
-const Header = () => {
-  return (
-    <div>
-      <h1> Header</h1>
-    </div>
-  );
-};
-
-const Nav = () => {
-  return (
-    <div>
-      <h1> Nav</h1>
-    </div>
-  );
-};
-
-const Content = () => {
-  return (
-    <div>
-      <h1> Content</h1>
-    </div>
-  );
-};
-
-const Footer = () => {
-  return (
-    <div>
-      <h1> Footer</h1>
-    </div>
-  );
-};
-
 
 
 export default App;
